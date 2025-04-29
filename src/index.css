@@ -6,6 +6,17 @@ body > div {
   height: 100vh;
   width: 100vw;
 }
+footer {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border: 1px solid black;
+  justify-content: space-between;
+  display: flex;
+}
+
 #container {
   height: 100%;
   display: flex;
@@ -17,6 +28,11 @@ body > div {
 #navbar {
   padding: 2em;
   justify-content: space-evenly;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 2rem 0 1rem 0;
+
 }
 #main-section {
   flex-grow: 1;
@@ -33,5 +49,10 @@ body > div {
 }
 .blue {
   background-color: #275db3;
+  color: white;
+}
+.home {
+  background: #3F5EFB;
+  background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
   color: white;
 }
